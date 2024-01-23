@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.subs{
+    --tw-bg-opacity: 1;
+    background-color: rgb(245 247 250/var(--tw-bg-opacity));
+    height:270px;
+    margin-top: 10px;
+}
+.demo{
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 40px;
+}
+.demo1{
+    text-align: center;
+    border-radius: 5px;
+    background-color: #10a962;
+    color: #ffffff;
+    margin: 17px;
+    margin-left: 513px;
+    padding: 10px;
+    border: none;
+}

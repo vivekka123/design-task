@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.App{
+    text-align: left;
+}
+.Header{
+    background-color: #ffffff;
+    height: 90px;
+}
+.logo{
+    display: inline-block;
+    margin-left: 25px;
+    position: sticky;
+    width:112px !important;
+}
+.res{
+    justify-content: flex-start !important;
+    display: inline-block !important;
+    margin-left: 15px;
+}.nav-link{
+    margin-left: 30px;
+}
+.register{
+    background-color: #1be41b;
+    margin-left:20px;
+}
+.register-button{
+    margin-left: 16px;
+    width:135px;
+}
+.navbar-collapse {
+    flex-grow: 0 !important; 
+    align-items: center;
+    font-weight: 500;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #ffffff!important;
+}
+.btn-primary{
+--bs-btn-bg: #10a962 !important;
+--bs-btn-border-color: #10a962 !important;
+--bs-btn-hover-bg: #10a962 !important;
+--bs-btn-hover-border-color: #10a962 !important;
+--bs-btn-active-bg: #10a962 !important;
+--bs-btn-disabled-bg: #10a962 !important;
+--bs-btn-disabled-border-color: #10a962 !important;
+}
+.me-auto {
+    margin-right: auto!important;
+    margin-left: 160px;
+}
+
+@media screen and(min-width:780px){
+    .container div{
+        width:30%;
+        display: flex;
+    }
+}
+/* @media screen and (max-width:1020px){
+   .Header{
+    width: 100%;
+    display: flex;
+   }
+} */

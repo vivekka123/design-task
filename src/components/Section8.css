@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.imagess1{
+    margin-left: 10px;
+}
+.para3{
+    margin-left: 26px;
+}
+.para2{
+    color: #008000;
+    display: inline-block;
+}
+.para1{
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-top: 16px;
+    line-height: normal;
+}
+.imagess2{
+    vertical-align: middle;
+    width: 28%;
+   
+    margin-right: 70px;
+    float: right;
+}
+.pixel2 {
+    display: inline-block;
+    width: 51%;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+.smith{
+    color: #008000;
+    margin-left: 26px;
+}
+.imagess3{
+ display: inline-block;
+ margin-left: 15px;
+ vertical-align: middle;
+}

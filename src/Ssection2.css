@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card-title5{
+    font-size: 2.5rem;
+    line-height: normal !important;
+    text-align: left !important;
+    margin-left: 70px ;
+}
+.card-title6{
+    font-size: 2.5rem !important;
+    color:#10a962 !important;
+    text-align: left;
+    margin-left: 70px;
+}
+.card-grouping4{
+    --tw-bg-opacity: 1;
+}
+.card-text8{
+    text-align: left;
+    margin-left: 70px;
+}
+.registration1{
+    text-align:left !important;
+    margin-left: 70px !important;
+    background-color: #10a962;
+    border-radius: 5px;
+    padding: 10px;
+    color: #ffffff;
+    width: 122px;
+    text-align: center !important;
+}
+.cards-group7{
+    width:50%;
+}
+/* @media only screen and (max-width:768px) and (min-width:320px) and(max-width:1020px) {
+ .card-grouping4{
+    width:100%;
+ }   
+} */
+@media screen and(max-width:1020px){
+    .card-section {
+        width:30% ;
+        margin-right: 10px;
+    }
+    .card-title5{
+        margin-right: 10px;
+    }
+}
+@media  screen and (max-width:768px){
+    .card-section{
+        text-align: center;
+        width: 80%;
+        margin-left: -14px;
+    }
+    .card-title5{
+        width:80%;
+    }
+}
+@media  screen and (max-width:430px){
+    .card-section{
+        width: 440px;
+        margin-left: -34px;
+    }
+    .card-text8{
+        width:307px;
+    }
+}
+/* @media screen and (max-width:320){
+    .card-section{
+            text-align: center;
+            width: 80%;
+            margin-left: -37px;
+    }
+} */

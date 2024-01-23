@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    vertical-align: middle;
+}
+.top{
+    display: inline-block;
+}
+.top1{
+    display: inline-block;
+}
+.top2{
+    display: inline-block;
+}
+.position{
+    position: relative;
+    width: 75% !important;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.position1{
+    position: absolute;
+    background-color: #ffff;
+    margin-top: 269px;
+    margin-left: 87px;
+    width: 65%;
+    padding: 5%;
+    height:40%;
+    border-radius: 6px;
+    background-color: rgb(245 247 250);
+    text-align: center;
+    
+}
+.position:hover{
+    opacity: 2;
+    display: inline-block;
+}
+.position1:hover{
+    display: inline-block;
+}
+.position:hover .position1{
+    display: inline-block;
+}
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    /* background-color: var(--bs-card-bg); */
+    background-clip: border-box;
+    border: none !important;;
+    border-radius: var(--bs-card-border-radius);
+}
+.readmore{
+    color: #008000;
+}
+@media screen and (max-width:1024px){
+    .card-detail{
+        margin-top: 0px;
+    }
+    .position{
+        width: 80% !important;
+        margin-left: 33px;
+    }
+    .position1{
+        margin-left: 63px;
+        margin-top: 292px;
+    }
+}
+@media screen and (max-width:800px){
+    .card-detail{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width:425px) {
+    .card-detail{
+        margin-top: -37px;
+    }
+    .position{
+        margin-left: 35px;
+        margin-top: 53px;
+    }
+}

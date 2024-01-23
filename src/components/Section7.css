@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.images1{
+    width: 14%;
+    display: inline-block;
+    margin-left: 70px;
+}
+.sec1{
+    padding-bottom: 25px;
+    font-size: 40px;
+}
+.pixel1{
+    display: inline-block;
+    width:45%;
+    margin-left: 230px;
+    vertical-align: middle;
+}
+.picture1{
+    display: inline-block;
+    margin-top: 80px;
+    vertical-align: middle;
+}
+.registration{
+    border:none;
+}

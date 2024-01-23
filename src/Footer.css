@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo1{
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+.logo2{
+    margin-bottom: 10px;
+}
+.logo3{
+    margin-bottom: 88px;
+}
+.map1{
+    margin-bottom: 10px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+.footersection{
+    background-color: rgb(38 50 56);
+    color: #ffffff;
+    margin-top: 10px;
+}
+.footer{
+    display: inline-block;
+    margin-left: 70px;
+}
+.footer1{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: -40px;
+}
+.footer2{
+    display: inline-block;
+    margin-left: 140px;
+}
+.footer3{
+    display: inline-block;
+    margin-left: 100px;
+    vertical-align: top;
+}
+.map{
+    display: inline-block;
+    margin-left: 10px;
+}
+.heading{
+    margin-top: 30px;
+}
+.logo4{
+    margin-bottom: 10px;
+}
+.search{
+ background-color: #515b60;
+ border-radius: 10px;
+ padding: 4px; 
+ color:#ffffff;
+ text-emphasis-color: #ffffff;  
+}
+.email1{
+    display: flex;
+    position: relative;
+    margin-left: -10px;
+}
+.emails{
+    display: inline-block;
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 4px;
+}
+.validate{
+    width:200px;
+    margin-left: -155px;
+}
+@media screen and (max-width:1200px){
+    .footersection{
+        width:100%;
+    }
+    .footer1{
+        width: 25%;
+        margin-right: -151px;
+        margin-left: -85px;
+    }
+    .footer2{
+        width: 25%;
+        margin-right: -200px;
+        margin-left: 70px;
+    }
+    .footer3{
+        width: 25%;
+        margin-right: -20px;
+        margin-left: 160px;
+    }
+}
+@media screen and (max-width:800px){
+    .footersection{
+        width:100%;
+    }
+    .footer{
+        margin-left: 38px;
+    }
+    .footer1{
+        width: 15%;
+        margin-right: -200px;
+        margin-left: -148px;
+    }
+    .footer2{
+        width: 15%;
+        margin-left: 205px;
+    }
+    .footer3{
+        width: 18%;
+        margin-right: -3px;
+        margin-left: 222px;
+    }
+}
+@media screen and (max-width:430px) {
+    .footersection{
+        width:100%;
+    }
+    .footer{
+        text-align: justify;
+        margin-top: 20px;
+        margin-right: 88px;
+        margin-left: 60px;
+        width: 82%;
+    }
+    .footer1{
+        width: 100%;
+        margin-right: -99px;
+        margin-left: 80px;
+    }
+    .footer2{
+        width: 100%;
+        margin-left: 83px;
+    }
+    .footer3{
+        width: 100%;
+        margin-right: -20px;
+        margin-left: 85px;
+        margin-bottom: 20px;
+    }
+    
+}

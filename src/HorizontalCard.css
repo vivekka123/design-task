@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.horizontal{
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 247 250/var(--tw-bg-opacity));
+  height: 375px;
+}
+.card1{
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 35px;
+}
+.card2{
+    display: inline-block;
+    margin-left: 267px;
+    margin-top: 50px;
+    vertical-align: top;
+}
+.image{
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    margin-left: 30px;
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(245 247 250/var(--tw-bg-opacity)) !important;
+}
+.division{
+    color: #008000;
+    font-weight: 600;
+    font-size: 45px;
+}
+.lessons{
+    font-weight: 600;
+    font-size: 50px;
+}
+.registration{
+  background-color: #10a962;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  width: 120px;
+  margin-top: 0px;
+  border:none;
+}
+.image:hover{
+  animation:alternate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HorizontalCard.css
+
+.card-container {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .card {
+    width: 50%;
+    border-radius: 8px;
+    padding: 2px;
+    height: 100px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 6px;
+  }
+  
+  /* Optional: Styling for scrollbar (if visible) */
+  /*.card-container::-webkit-scrollbar {
+    display: none;
+  }
+   */

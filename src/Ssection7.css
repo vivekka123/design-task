@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(245 247 250/var(--tw-bg-opacity)) !important;
+    margin-top: 50px !important;
+}
+.card-titles1{
+    font-size: 2.5rem !important;
+}
+.button1{
+    margin-top: 10px;
+}
