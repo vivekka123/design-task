@@ -47,7 +47,9 @@
     .card-text1{
         margin-left: -86px;
     }
-    
+    .register{
+        margin-left: 10px;
+    }
 }
 @media screen and (max-width:800px){
     .carding1{
