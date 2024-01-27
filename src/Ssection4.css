@@ -4,9 +4,11 @@
 }
 .carding{
     display: inline-block;
+   
 }
 .carding1{
     display: inline-block;
+    margin-left: 10px !important;
 }
 .cards-group{
     width: 50%;
@@ -18,7 +20,7 @@
 }
 .card-img, .card-img-bottom, .card-img-top {
     width: 55% !important;
-    margin-left: 100px;
+    margin-left: 160px;
     margin-top: 53px;
     height: 330px;
 }
@@ -42,13 +44,14 @@
     width: 120px;
     margin-top: 0px;
     border:none;
+    margin-left: 2px !important;
 }
 @media screen and (max-width:1024px) {
     .card-text1{
         margin-left: -86px;
     }
     .register{
-        margin-left: 10px;
+        margin-left: -80px;
     }
 }
 @media screen and (max-width:800px){
@@ -65,14 +68,14 @@
     }
     .card-text1{
         text-align: center;
-        width: 76%;
+        width: 90%;
         margin-left: -28px;
         margin-top: 0px;
     }
     .register{
         text-align: center;
         width: 80%;
-        margin-left: -24px;
+        margin-left: -24px !important;
     }
     .carding{
         margin-top: 0px;
@@ -93,13 +96,39 @@
     .card-text1{
         text-align: center;
         width: 80%;
-        margin-left: 10px;
+        margin-left: 35px;
         margin-top: 0px;
     }
     .register{
         text-align: center;
         width: 80%;
-        margin-left: 12px;
+        margin-left: 35px !important;
+    }
+    .carding{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width:320px){
+    .card-grouping{
+        width:100%;
+    }
+    .carding{
+        margin-left: -26px;
+    }
+    .carding1{
+        text-align: center;
+        width: 100%;
+        margin-left: 20px;
+    }
+    .card-text1{
+        text-align: center;
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    .register{
+        text-align: center;
+        width: 80%;
+        margin-left: 30px !important;
     }
     .carding{
         margin-top: 0px;

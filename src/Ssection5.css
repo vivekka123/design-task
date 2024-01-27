@@ -10,7 +10,7 @@
 .card-title2{
     font-size: 40px !important;
     margin-bottom: 10px !important;
-    margin-right: 45px;
+    margin-right: 85px;
 }
 .card-grouping1{
     margin-top: 40px;
@@ -24,11 +24,32 @@
     }
     
 }
+@media screen and (max-width:800px) {
+    .cards-group9{
+        margin-left: 35px;
+    }
+    .card-title2{
+        margin-left: -46px;
+        width: 100%;
+    }
+    
+}
 @media  screen and (max-width:430px) {
     .cards-group9{
         margin-left: 119px;
     }
     .card-title2{
-        margin-left: 10px;
+        margin-left: 25px;
+        width: 362px;
     }
+}
+@media screen and (max-width:320px) {
+    .cards-group9{
+        margin-left: 100px;
+    }
+    .card-title2{
+        margin-left: 21px;
+        width: 84%;
+    }
+    
 }

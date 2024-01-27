@@ -6,46 +6,54 @@
     font-size: 2.5rem;
     line-height: normal !important;
     text-align: left !important;
-    margin-left: 70px ;
+    margin-left: 130px ;
+    margin-top: 80px !important;
 }
 .card-title6{
     font-size: 2.5rem !important;
     color:#10a962 !important;
     text-align: left;
-    margin-left: 70px;
+    margin-left: 130px;
 }
 .card-grouping4{
     --tw-bg-opacity: 1;
 }
 .card-text8{
     text-align: left;
-    margin-left: 70px;
+    margin-left: 130px;
 }
 .registration1{
     text-align:left !important;
-    margin-left: 70px !important;
+    margin-left: 130px !important;
     background-color: #10a962;
     border-radius: 5px;
     padding: 10px;
     color: #ffffff;
     width: 122px;
-    text-align: center !important;
 }
 .cards-group7{
     width:50%;
 }
-/* @media only screen and (max-width:768px) and (min-width:320px) and(max-width:1020px) {
- .card-grouping4{
-    width:100%;
- }   
-} */
-@media screen and(max-width:1020px){
+@media screen and (max-width:1024px){
     .card-section {
         width:30% ;
         margin-right: 10px;
     }
     .card-title5{
-        margin-right: 10px;
+        margin-left: 66px;
+        margin-top: 10px !important;
+    }
+    .card-title6{
+        margin-left: 66px;
+        margin-top: 10px !important;
+    }
+    .card-text8{
+        margin-left: 66px;
+        margin-top: 10px !important;
+    }
+    .registration1{
+        margin-left: 66px !important;
+        margin-top: 10px !important;
     }
 }
 @media  screen and (max-width:768px){
@@ -57,20 +65,94 @@
     .card-title5{
         width:80%;
     }
+    .card-title6{
+        margin-left: 61px;
+        margin-top: 10px !important;
+    }
+    .card-text8{
+        margin-left: 61px;
+        margin-top: 10px !important;
+    }
+    .registration1{
+        margin-left: 61px;
+        margin-top: 10px !important;
+    }
 }
 @media  screen and (max-width:430px){
     .card-section{
         width: 440px;
         margin-left: -34px;
     }
+    .card-title5{
+        width:85%;
+    }
+    .card-title6{
+        width: 88%;
+        margin-left: 61px;
+        margin-top: 10px !important;
+    }
     .card-text8{
+        margin-left: 61px;
+        margin-top: 10px !important;
         width:307px;
     }
-}
-/* @media screen and (max-width:320){
-    .card-section{
-            text-align: center;
-            width: 80%;
-            margin-left: -37px;
+    .registration1{
+        margin-left: 61px;
+        margin-top: 10px !important;
     }
-} */
+    .cards-group7{
+        margin-left: 110px;
+    }
+}
+@media  screen and (max-width:375px){
+    .card-section{
+        width: 440px;
+        margin-left: -34px;
+    }
+    .card-title5{
+        width:84%;
+    }
+    .card-title6{
+        width: 88%;
+        margin-left: 61px;
+        margin-top: 10px !important;
+    }
+    .card-text8{
+        margin-left: 61px;
+        margin-top: 10px !important;
+        width:310px;
+    }
+    .registration1{
+        margin-left: 61px;
+        margin-top: 10px !important;
+    }
+    .cards-group7{
+        margin-left: 110px;
+    }
+}
+@media  screen and (max-width:320px){
+    .card-section{
+        width: 440px;
+        margin-left: -34px;
+    }
+    .card-title5{
+        width:84%;
+    }
+    .card-title6{
+        width: 88%;
+        margin-left: 61px;
+        margin-top: 10px !important;
+    }
+    .card-text8{
+        margin-left: 61px;
+        margin-top: 10px !important;
+        width:307px;
+    }
+    .registration1{
+        margin-left: 61px;
+        margin-top: 10px !important;
+    }
+    .cards-group7{
+        margin-left: 95px;
+    }
+}

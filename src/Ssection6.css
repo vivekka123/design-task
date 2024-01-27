@@ -53,7 +53,7 @@
     .card-text5{
         width: 80%;
         margin-left: 30px;
-        margin-top: 50px;
+        margin-top: 0px;
     }
     .card-text6{
         width: 80%;
@@ -70,17 +70,17 @@
     .card-text3{
         text-align: justify;
         width: 80%;
-        margin-left: 15px;
+        margin-left: 35px;
         margin-top: 30px;
     }
     .card-text4{
         width: 80%;
-        margin-left: 15px;
+        margin-left: 30px;
         margin-top: 0px;
     }
     .card-text5{
         width: 80%;
-        margin-left: 15px;
+        margin-left: 30px;
         margin-top: 0px;
     }
     .card-text6{
@@ -91,5 +91,44 @@
     .cards-group2{
         margin-left: 60px;
     }
+    .imagess3{
+        margin-left: 15px;
+    }
     
+}
+@media screen and (max-width:375px) {
+    .imagess3{
+        margin-left: 15px;
+    }
+}
+@media  screen and (max-width:320px) {
+    .card-text3{
+        text-align: justify;
+        width: 75%;
+        margin-left: 33px;
+        margin-top: 50px;
+    }
+    .card-text4{
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    .card-text5{
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    .card-text6{
+        width: 80%;
+        margin-left: -1px;
+        margin-top: 0px;
+    }
+    .cards-group2{
+        width: 75% !important;
+        margin-left: 60px;
+
+    }
+    .imagess3{
+        margin-left: 10px;
+    }
 }

@@ -18,19 +18,11 @@
     text-align: center;
     text-emphasis: 1px;
 }
-/* .media-image{
-    width:100%;
-} */
+
 .imagesss{
-    margin-left: 102px;
+    margin-left: 110px;
 }
-/* @media  screen and (min-width:501px),(max-width:1000px) {
-    .media-image{
-       width:78%;
-        align-items: center;
-        
-    }
-} */
+
 
 @media screen and (max-width:425px){
     .media-image div{
@@ -40,11 +32,7 @@
     }
     
 }
-/* @media screen and (min-width:425px){
-    .media-image{
-        width:80%;
-    }
-} */
+
 @media screen and (max-width:1024px){
     .media-image{
         width:100%;

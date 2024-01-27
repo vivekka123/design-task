@@ -31,15 +31,15 @@ p {
 .footer1{
     display: inline-block;
     margin-right: 10px;
-    margin-left: -40px;
+    margin-left: 30px;
 }
 .footer2{
     display: inline-block;
-    margin-left: 140px;
+    margin-left: 170px;
 }
 .footer3{
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 160px;
     vertical-align: top;
 }
 .map{
